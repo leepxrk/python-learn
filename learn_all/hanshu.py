@@ -11,4 +11,3 @@ def printme( str ):
 printme("str");
 printme("再次调用同一函数");
 
-
