@@ -6,15 +6,23 @@
 #定义变量
 import random,MySQLdb,sys
 
-#a = int(input("数值A:"))
-n = 4000000
-res = 0
-a = 1
+n = int(input("数值A:"))
+a = 0
 b = 1
+c = 1
 
-while res < n:
-        a = res + b
-        b = a + res
-        res = a + b
-
-print res
+while c < n:
+        a = b + c
+        if a < n:
+            b = a + c
+        else:
+            print c
+            break
+        if b < n:
+            c = a + b
+        else:
+            print a
+            break
+        if c > n:
+            print b
+            break
