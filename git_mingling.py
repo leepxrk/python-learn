@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 在此附上git常用命令以供使用：
 
 git clone <address>：复制代码库到本地；
