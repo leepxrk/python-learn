@@ -20,4 +20,13 @@ git reset <log>：恢复到历史版本
 
 
 #提交历史版本
- git push origin master Counting objects: 7566, done.
+git add .
+git commit -m"版本更新信息"
+git push origin master
+ #或
+git commit -a -m"版本更新信息" 
+
+
+#同步服务端代码至本地
+cd 本地项目文档
+git pull origin master
