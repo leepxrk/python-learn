@@ -12,3 +12,6 @@ for each in munber:
     print(each,len(each))
 
 list(range(99))
+
+
+
