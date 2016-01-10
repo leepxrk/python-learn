@@ -24,7 +24,7 @@ git add .
 git commit -m"版本更新信息"
 git push origin master
  #或
-git commit -a -m"版本更新信息" 
+git commit -a -m"版本更新信息"
 
 
 #同步服务端代码至本地
