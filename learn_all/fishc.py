@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 #定义变量
-import random,MySQLdb,sys
+import random;
 
 answer = random.randint(1,10)
 #以下为变量赋值
