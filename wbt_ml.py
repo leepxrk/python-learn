@@ -7,7 +7,7 @@ import G3
 G3.isdn()
 
 
-
+# alkdjfaoi 
 #apt-cache search package 搜索包
 #apt-cache show package 获取包的相关信息，如说明、大小、版本等
 #sudo apt-get install package 安装包
