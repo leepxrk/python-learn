@@ -6,6 +6,6 @@ print "the temprature is " + `temp`
 
 print 10000l
 
-name = input("what is your name")
+name = raw_input("what is your name")
 print "hello." + name + "!"
 
