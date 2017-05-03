@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-import MySQLdb,re,urllib2
+
 
 url=raw_input("冒号后输入视频地址：")
 urllist=list(url)
