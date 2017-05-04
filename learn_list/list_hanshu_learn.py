@@ -1,6 +1,10 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+
 #列表函数
 st = [1,2,1,1]
-sst = [2,2,3,3,56,4,5,56,6,6,6]
+sst = [2,2,3,3,56,4,6]
 
 #append 函数
 st.append(68)  #在列表最后增加新的元素，一次仅能添加一个元素
@@ -8,22 +12,22 @@ print 'append 方法:',st
 
 
 #insert 函数
-st.insert(2,3)   #insert方法有两个参数，第一个参数是代表函数插入的索引位，第二个参数代表插入的元素
+st.insert(2,68)   #insert方法有两个参数，第一个参数是代表函数插入的索引位，第二个参数代表插入的元素
 print 'insert 方法:',st
 
 
-#extend 函数
-st.extend(sst)   #在列表末尾一次性追加另一个序列中的多个值
+#extend：在列表末尾一次性追加另一个序列中的多个值
+st.extend(sst)
 print 'extend 方法:',st
 #extend 操作和连接操作最大的不同是，连接操作是新建了一个列表，而extend操作是拓展了第一个列表
 
 
-#count 函数
-print 'count 方法:',st.count(2)  #count 统计某个元素在列表中出现的次数
-
+#count：统计某个元素在列表中出现的次数
+print 'count 方法:',st.count(2)
 
 #index 函数
-print 'index 方法:',st.index(56)                #用于查找列表中某个值的第一个匹配项的索引位置
+print 'index 方法:',st.index(56)
+# 用于查找列表中某个值的第一个匹配项的索引位置
 
 
 #pop 函数
