@@ -1,0 +1,24 @@
+{
+    "remotePath": "./Django",
+    "host": "47.93.224.67",
+    "username": "root",
+    "password": "Qq19900807",
+    "port": 22,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}

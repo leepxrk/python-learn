@@ -19,3 +19,7 @@ pin = raw_input('pin code:')
 
 if [user_name,pin] in databases:
     print 'access granted'
+
+【TME平台】您的校验码为：746732，工作人员不会向您索取，请勿泄露。
+
+【TME平台】您的校验码为：746732，请勿泄露。如非本人操作请忽略此短信。
