@@ -175,7 +175,7 @@ def get_info(html, url):
     except IndexError:
         one_star = 'no info'
 	#将获得的信息写入本地数据库
-    conn = pymysql.connect(host = '127.0.0.1',user = 'root',password = '19900807',db = "DoubanMovies",port = 3306,charset='utf8')
+    conn = pymysql.connect(host = '127.0.0.1',user = 'root',password = 'qq19900807',db = "CrawlerDate",port = 3306,charset='utf8')
     data = [titles, release_time, region, director, times, tags, gerne,  score, score_numbers,comments_num, five_stars,four_stars, three_stars, two_stars, one_star]
 
     with conn.cursor() as cur:
