@@ -4,7 +4,7 @@ import time
 import random
 import pymysql
 import requests
-from lxml import tree
+from lxml import etree
 from urllib.parse import urlencode
 from requests.exceptions import RequestException
 
