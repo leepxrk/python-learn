@@ -14,4 +14,4 @@ print 10000l
 # y = input("输入 y 的值：")
 # print x * y
 
-print pow(3,2)
+print pow(3,3)
