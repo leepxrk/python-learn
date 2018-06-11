@@ -25,9 +25,9 @@
 			"env": {
 				"NODE_ENV": "development"
 			},
-			"externalConsole": false,
+			"Console": false,
 			"sourceMaps": false,
-			"outDir": null
+			"outFiles": null
 		},
 		{
 			"name": "Attach",
