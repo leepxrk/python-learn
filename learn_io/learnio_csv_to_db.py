@@ -21,12 +21,29 @@ f = csv_date.readline().splitlines() #仅读取一行数据
 
 print(f)
 
-A_share_date.append(f)
+stock_code = f,2
+start_time
+stop_time
+stock_turnover
+stock_trading_volume
+opening_price
+low
+high
+closing_price
+opening_front_subscription_price
+low_front_subscription_price
+high_front_subscription_price
+closing_front_subscription_price
+opening_back_Subscription_price
+low_back_Subscription_price
+high_back_Subscription_price
+closing_back_Subscription_price
 
-print(A_share_date)
+
+
 
 # 写入数据
-update_db = "INSERT INTO A_share_shanghai_bourse VALUES()"
+update_db = "INSERT INTO A_share_shanghai_bourse VALUES(),(%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,)"
 
 
 # A_share_date.append(f)
