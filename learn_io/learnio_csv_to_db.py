@@ -16,28 +16,37 @@ cur = linkDB.cursor()
 A_share_date = []
 
 # 打开csv文件
-csv_date = open('shanghai/600000.csv','rb')
-f = csv_date.readline().splitlines() #仅读取一行数据
+#csv_date = open('shanghai/600000.csv','rb')
+#f = csv_date.readline().splitlines() #仅读取一行数据,以回车符号区分行
 
-print(f)
+csv_date = csv.reader(open('shanghai/600000.csv','rb'))
 
-stock_code = f[0]
-start_time = f[1]
-stop_time = f[2]
-stock_turnover = f[3]
-stock_trading_volume = f[4]
-opening_price = f[5]
-low = f[6]
-high = f[7]
-closing_price = f[8]
-opening_front_subscription_price = f[9]
-low_front_subscription_price = f[10]
-high_front_subscription_price = f[11]
-closing_front_subscription_price = f[12]
-opening_back_Subscription_price = f[13]
-low_back_Subscription_price = f[14]
-high_back_Subscription_price = f[15]
-closing_back_Subscription_price = f[16]
+print(csv_date)
+
+#length=len(f)
+#for i in range(length):
+#    f[i]=f[i].split(",")
+
+#print(f)
+
+
+#stock_code = f[0]
+#start_time = f[1]
+#stop_time = f[2]
+#stock_turnover = f[3]
+#stock_trading_volume = f[4]
+#opening_price = f[5]
+#low = f[6]
+#high = f[7]
+#closing_price = f[8]
+#opening_front_subscription_price = f[9]
+#low_front_subscription_price = f[10]
+#high_front_subscription_price = f[11]
+#closing_front_subscription_price = f[12]
+#opening_back_Subscription_price = f[13]
+#low_back_Subscription_price = f[14]
+#high_back_Subscription_price = f[15]
+#closing_back_Subscription_price = f[16]
 
 
 
@@ -52,11 +61,11 @@ update_db = """INSERT INTO A_share_shanghai_bourse (stock_code,start_time,stop_t
 
 
 # 查询数据行数
-QueryData = "select id,start_time from A_share_shanghai_bourse where stock_code = '600000' limit 10"
+QueryData = "select start_time from A_share_shanghai_bourse where stock_code = '600006' limit 10"
 cur.execute(QueryData)
 date = cur.fetchall()
-for id,start_time in date:
-    print(id,start_time)
+for start_time in date:
+    print(start_time)
 
 
 
