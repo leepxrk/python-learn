@@ -5,80 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36866dbc-f6d2-4569-ad7e-5469f53de268" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/leepx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/leepx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/restaurant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/restaurant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/BiliBili/Danmu.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/BiliBili/Danmu.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/BiliBili/Eva_danmu.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/BiliBili/Eva_danmu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/DouBan_Full_Movies/douban_movies_full.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/DouBan_Full_Movies/douban_movies_full.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/DoubanTop250/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/DoubanTop250/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/Douban_stills/baixianliu.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/Douban_stills/baixianliu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/Netease/comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/Netease/comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/taobao/phone_sales.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/taobao/phone_sales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/taobao/taobao.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/taobao/taobao.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/wuhan/rent_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/wuhan/rent_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/wuhan/rent_info_analyse.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/wuhan/rent_info_analyse.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/wuhan/second_hand.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/wuhan/second_hand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_learn/wuhan/wuhan_house_spider.sql" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_learn/wuhan/wuhan_house_spider.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_mingling.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_mingling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_algorithm/fbnqsl.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_algorithm/fbnqsl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_algorithm/fljs.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_algorithm/fljs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_algorithm/mpsf.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_algorithm/mpsf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_algorithm/tax_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_algorithm/tax_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_algorithm/zd_gys.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_algorithm/zd_gys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/Modular.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/Modular.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/dblearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/dblearn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/first.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/fishc.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/fishc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/hanshu.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/hanshu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/pachong2.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/pachong2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/pclearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/pclearn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/python_learn_exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/python_learn_exam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/python_learn_rncxq.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/python_learn_rncxq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/user_zg.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/user_zg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_all/zzbds.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_all/zzbds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_class/learn_class_1st.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_class/learn_class_1st.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/learn_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/learn_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/learnio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/learnio2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn_io/learnio_csv_to_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/learnio_csv_to_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/shanghai/600000 (复件).csv" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/shanghai/600000 (复件).csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/shanghai/600000.csv" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/shanghai/600000.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/shanghai/600004.csv" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/shanghai/600004.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_list/list_hanshu_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_list/list_hanshu_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_list/list_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_list/list_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_list/paixu_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_list/paixu_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_list/shuzu.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_list/shuzu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_str/learn_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_str/learn_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_str/learn_str_constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_str/learn_str_constant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_str/learn_str_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_str/learn_str_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_xh/learn_xh_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_xh/learn_xh_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_xh/learn_xh_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_xh/learn_xh_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_xh/learn_xh_first.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_xh/learn_xh_first.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_zd/learn_zd.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_zd/learn_zd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_zd/learn_zd_first.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_zd/learn_zd_first.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_zd/learn_zd_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_zd/learn_zd_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modular/G3.py" beforeDir="false" afterPath="$PROJECT_DIR$/modular/G3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modular/fbnqsl.py" beforeDir="false" afterPath="$PROJECT_DIR$/modular/fbnqsl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modular/isdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/modular/isdn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modular/mpsf.py" beforeDir="false" afterPath="$PROJECT_DIR$/modular/mpsf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modular/turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/modular/turtle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modular/xh.py" beforeDir="false" afterPath="$PROJECT_DIR$/modular/xh.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modular/zd_gys.py" beforeDir="false" afterPath="$PROJECT_DIR$/modular/zd_gys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone/G3.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/G3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone/_init_.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/_init_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone/isdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/isdn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone/learn_mk.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/learn_mk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone/pots.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/pots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wbt_ml.py" beforeDir="false" afterPath="$PROJECT_DIR$/wbt_ml.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,8 +27,8 @@
       <file leaf-file-name="fbnqsl.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn_algorithm/fbnqsl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -135,8 +64,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
-    <option name="y" value="88" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
   </component>
@@ -381,11 +309,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="88" width="1920" height="977" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18072917" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2912514" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="8" />
@@ -663,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_algorithm/fbnqsl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
