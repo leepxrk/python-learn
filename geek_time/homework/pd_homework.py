@@ -30,17 +30,27 @@ else:
 import time
 
 fff = []
+eee = []
 
 b = range(1,101)
 for c in b:
-    print(c)
+#    print(c)
+    e = c % 2
+    if e == 0:
+        eee.append(c)
 #    time.sleep(1)
 #2. 使用while语句输出1-100之间能够被3整除的数字
     d = c % 3
     if d == 0:
         fff.append(c)
 
+print(eee)
 print (fff)
+
+print(len(eee))
+print(len(fff))
+
+
 
 
 

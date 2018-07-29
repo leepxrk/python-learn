@@ -28,25 +28,37 @@ zodiac = chinese_zodiac[int(Birthday_year)%12 - 4]
 #    将月份和日期提取到程序中
 month_day = (int(Birthday_month),int(Birthday_day))
 
+xhcs = 0
+
 #    计算月份和日期对应的星座
 # print (constellation[int(len(list(filter(lambda x : x < month_day,constellation_Day)))-2)])
 
-for constellation_num in range(len(constellation_Day)):
+# for循环判断
+#for constellation_num in range(len(constellation_Day)):
 #    print(constellation_num)
-    if month_day <= constellation_Day[constellation_num]:
-        print (constellation[constellation_num - 1])
-        break
-    else:
-        print(constellation[11])
-        break
+#    if month_day <= constellation_Day[constellation_num]:
+#        print (constellation[constellation_num - 1])
+#        break
+#    else:
+#        print(constellation[11])
+#        break
 #    break
 
-# print(month_day <= constellation_Day[constellation_num])
 
-#print((12,25) < (12,22))
+# while 循环判断
+while constellation_Day[xhcs] < month_day:
+    if int(Birthday_month) >= 12 and int(Birthday_day) >= 23:
+#        print (constellation[11])
+        break
+    xhcs += 1
+#    print (xhcs)
+
+print (constellation[xhcs - 1])
+
+
 
 # 输入属相
-print("您的属相是：" + zodiac)
+# print("您的属相是：" + zodiac)
 
 # 输出星座
 
