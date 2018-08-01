@@ -20,14 +20,14 @@ import csv,os
 
 
 # 读取文件
-file1 = open(r'C:\Users\leepx\OneDrive\Myself\GitHub\python_learn\geek_time\name.txt')
+file1 = open(r'name.txt')
 print(file1.read())
 file1.close
 
 
 
 # 读取一行
-file2 = open(r'C:\Users\leepx\OneDrive\Myself\GitHub\python_learn\geek_time\name.txt')
+file2 = open(r'name.txt')
 print(file2.readline())
 file2.close
 
