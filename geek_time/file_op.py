@@ -10,14 +10,35 @@ import csv,os
 #    file_read = file2.read()
 #    print (file_read)
 
-#file3 = open('name.txt','a')
-#file3.write('刘备')
-#file3.close 
+
+# 将名称“刘备”写入文件
+# 写入的操作标记w，在文本末尾的操作标记a
+
+# file3 = open(r'C:\Users\leepx\OneDrive\Myself\GitHub\python_learn\geek_time\name.txt','a')
+# file3.write('刘备')
+# file3.close 
 
 
+# 读取文件
 file1 = open(r'C:\Users\leepx\OneDrive\Myself\GitHub\python_learn\geek_time\name.txt')
 print(file1.read())
-print (file1.readline())
-
 file1.close
+
+
+
+# 读取一行
+file2 = open(r'C:\Users\leepx\OneDrive\Myself\GitHub\python_learn\geek_time\name.txt')
+print(file2.readline())
+file2.close
+
+# 按行读取整个文件
+file4 = open(r'name\name.txt')
+print(file4.readlines())
+file4.close
+
+
+
+
+
+
 
