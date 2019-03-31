@@ -43,8 +43,6 @@ import os
 # tell() 能输出当前指针所在位置
 # seek() 能输入两个参数，第一个是偏移量，第二个参数是从哪个位置开始偏移
 
-# 
-
 file6 = open(r'./geek_time/name.txt')  
 print(file6.read(1))
 
@@ -53,7 +51,6 @@ print(file6.read(1))
 
 file6.seek(5.0)
 print(file6.read())
-
 
 
 
