@@ -26,5 +26,5 @@ while y < 1000:
     y = len(paixu)
 
 paixu.sort()
-print len(paixu)
+print(len(paixu))
 print paixu
