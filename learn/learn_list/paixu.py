@@ -93,7 +93,7 @@ if __name__ == '__main__':
 #    print(sqlist)
 
 
-changdu = len(datalist) - 
+changdu = len(datalist) - 1
 
 print(sqlist(changdu))
 
