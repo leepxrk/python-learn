@@ -13,16 +13,16 @@ cursor = db.cursor()
 # sql = "insert into beautyGirls(name, age) values ('Mrs.cang', 18)"
 sql = "select low,high from stockData where stockCode = '600000'"
 
-cs.execute(sql)
+list1.execute(sql)
     datalist = []
-    alldata = cs1.fetchall()
+    alldata = list1.fetchall()
     for s in alldata:
         datalist.append(s[0])
     print(datalist)
 
-# try:
-#     cursor.execute(sql)
-#     db.commit()
+try:
+    cursor.execute(sql)
+    db.commit()
 except:
     # 回滚
     db.rollback()
