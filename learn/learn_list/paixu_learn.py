@@ -10,10 +10,10 @@ paixu = []
 # paixu.insert(0,68)   #insert方法有两个参数，第一个参数是代表函数插入的索引位，第二个参数代表插入的元素
 
 
-# x = 1
-# while x <= 100:
-#    paixu.append(x)
-#    x += 1
+x = 1
+while x <= 100:
+   paixu.append(x)
+   x += 1
 
 
 
