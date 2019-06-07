@@ -12,8 +12,8 @@ db = pymysql.connect("94.191.94.133", "root",
 # 接着我们获取 cursor 来操作我们的 statisticalLearning 这个数据库
 cursor = db.cursor()
 
-queryStockCode = input("请输入需要查询的股票代码：")
-limitCode = input("请输入需要查询的数量：")
+queryStockCode = input("000:")
+limitCode = input("111:")
 
 # 插入一条记录
 # sql = "insert into beautyGirls(name, age) values ('Mrs.cang', 18)"
