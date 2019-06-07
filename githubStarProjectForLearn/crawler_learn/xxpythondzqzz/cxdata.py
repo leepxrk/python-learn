@@ -16,7 +16,7 @@ cursor = db.cursor()
 # sql = "insert into beautyGirls(name, age) values ('Mrs.cang', 18)"
 # sql = "select low,high from stockData where stockCode = '600000'"
 
-list1.execute("select low,high from stockData where stockCode = '600000'")
+cur.execute("select low,high from stockData where stockCode = '600000'")
 alldata = list1.fetchall()
 
 
