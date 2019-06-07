@@ -26,6 +26,8 @@ while y < 7:
     print(y)
     y = len(paixu)
 
+
+
 paixu.sort()
-print(len(paixu))
+print(paixu))
 # print paixu
