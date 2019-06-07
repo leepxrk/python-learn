@@ -2,6 +2,9 @@
 import pymysql
 
 
+# 创建空列表
+datalist = []
+
 # 使用 connect 方法，传入数据库地址，账号密码，数据库名就可以得到你的数据库对象
 db = pymysql.connect("127.0.0.1", "root", 
 "19900807", "statisticalLearning")
@@ -11,11 +14,12 @@ cursor = db.cursor()
 
 # 插入一条记录
 # sql = "insert into beautyGirls(name, age) values ('Mrs.cang', 18)"
-sql = "select low,high from stockData where stockCode = '600000'"
+# sql = "select low,high from stockData where stockCode = '600000'"
 
-list1.execute(sql)
-datalist = []
+list1.execute("select low,high from stockData where stockCode = '600000'")
 alldata = list1.fetchall()
+
+
 for s in alldata:
     datalist.append(s)
 print(datalist)
