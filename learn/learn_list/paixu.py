@@ -95,7 +95,9 @@ if __name__ == '__main__':
 
 changdu = len(datalist) - 1
 
-print(sqlist(changdu))
+theBigger = sqlist(changdu)
+
+print(theBigger)
 
 
 
