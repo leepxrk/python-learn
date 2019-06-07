@@ -17,7 +17,7 @@ list1.execute(sql)
     datalist = []
     alldata = list1.fetchall()
     for s in alldata:
-        datalist.append(s[0])
+        datalist.append(s)
     print(datalist)
 
 try:
