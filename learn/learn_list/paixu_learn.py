@@ -29,5 +29,5 @@ while y < 7:
 
 
 paixu.sort()
-print(paixu))
+print(paixu)
 # print paixu
