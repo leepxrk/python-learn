@@ -11,7 +11,7 @@ paixu = []
 
 
 x = 1
-while x <= 1000:
+while x <= 5:
     paixu.append(x)
     print(x)
     x += 1
@@ -21,7 +21,7 @@ while x <= 1000:
 
 y = len(paixu)
 
-while y < 1000:
+while y < 7:
     paixu.append(input("输入数值："))
     y = len(paixu)
 
