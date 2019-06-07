@@ -92,7 +92,10 @@ if __name__ == '__main__':
     sqlist.heap_sort()
 #    print(sqlist)
 
-print(sqlist[len(sqlist)])
+
+changdu = len(sqlist)
+
+print(sqlist[changdu - 1])
 
 
 
