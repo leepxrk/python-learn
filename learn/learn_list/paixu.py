@@ -49,6 +49,7 @@ class SQList:
 
 if __name__ == '__main__':
     sqlist = SQList([4, 1, 7, 3, 8, 5, 9, 2, 6, 0, 123, 22])
+    sqlist = SQList(learndef)
     sqlist.heap_sort()
     print(sqlist)
 

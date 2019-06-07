@@ -16,13 +16,12 @@ cursor = db.cursor()
 # sql = "insert into beautyGirls(name, age) values ('Mrs.cang', 18)"
 # sql = "select low,high from stockData where stockCode = '600000'"
 
-cursor.execute("select low,high from stockData where stockCode = '600000' limit 3")
-alldata = cursor.fetchall()
-
-
-for s in alldata:
-    datalist.append(s)
-print(datalist)
+def.learndef
+    cursor.execute("select low,high from stockData where stockCode = '600000' limit 3")
+    alldata = cursor.fetchall()
+    for s in alldata:
+        datalist.append(s)
+    print(datalist)
 
 try:
     cursor.execute(sql)
