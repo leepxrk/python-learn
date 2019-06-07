@@ -16,13 +16,13 @@ cursor = db.cursor()
 # sql = "insert into beautyGirls(name, age) values ('Mrs.cang', 18)"
 # sql = "select low,high from stockData where stockCode = '600000'"
 
-cursor.execute("select high from stockData where stockCode = '600000'")
+cursor.execute("select high from stockData where stockCode = '600000' limit 10")
 alldata = cursor.fetchall()
 
 
 for s in alldata:
     datalist.append(s)
-# print(datalist)
+print(datalist)
 
 try:
     cursor.execute(sql)
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 #    sqlist = SQList([4, 1, 7, 3, 8, 5, 9, 2, 6, 0, 123, 22])
     sqlist = SQList(datalist)
     sqlist.heap_sort()
-#    print(sqlist)
+    print(sqlist)
 
 
 changdu = len(datalist) - 1
