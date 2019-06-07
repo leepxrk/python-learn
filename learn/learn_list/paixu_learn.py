@@ -11,9 +11,11 @@ paixu = []
 
 
 x = 1
-while x <= 100:
-   paixu.append(x)
-   x += 1
+while x <= 1000:
+    paixu.append(x)
+    print(x)
+    x += 1
+
 
 
 
