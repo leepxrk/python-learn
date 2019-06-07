@@ -14,11 +14,11 @@ cursor = db.cursor()
 sql = "select low,high from stockData where stockCode = '600000'"
 
 list1.execute(sql)
-    datalist = []
-    alldata = list1.fetchall()
-    for s in alldata:
-        datalist.append(s)
-    print(datalist)
+datalist = []
+alldata = list1.fetchall()
+for s in alldata:
+    datalist.append(s)
+print(datalist)
 
 try:
     cursor.execute(sql)
