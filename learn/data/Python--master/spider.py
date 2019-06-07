@@ -21,8 +21,10 @@ def getStockList(lst, stockURL):
             href = i.attrs['href']  
             lst.append(re.findall(r"[s][hz]\d{6}", href)[0])  
         except:  
-            continue  
+            continue
   
+print(lst)
+
 def getStockInfo(lst, stockURL, fpath):  
     for stock in lst:  
         url = stockURL + stock + ".html"  
@@ -60,7 +62,3 @@ def main():
   
 
 main()  
-
-
-
-print(getStockList)
