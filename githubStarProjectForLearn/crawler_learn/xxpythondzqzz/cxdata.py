@@ -1,6 +1,6 @@
 
 import pymysql
-import 
+
 
 # 使用 connect 方法，传入数据库地址，账号密码，数据库名就可以得到你的数据库对象
 db = pymysql.connect("127.0.0.1", "root", 
