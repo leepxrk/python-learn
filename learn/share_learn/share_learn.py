@@ -40,7 +40,7 @@ stock = ts.get_stock_basics()
 # print (stock)
 
 
-stock.to_sql(name='stock_basic',if_exists='append', index=False)
+stock.to_sql(name='stock_basic',con = conn,if_exists='append', index=False)
 
 
 
