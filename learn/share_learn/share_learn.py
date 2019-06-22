@@ -36,7 +36,7 @@ stock = ts.get_stock_basics()
 print (stock)
 
 
-stock.to_sql(‘stock_basic’,cn,index=False)
+stock.to_sql('stock_basic',cn,index=False)
 
 
 
