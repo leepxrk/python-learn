@@ -1,4 +1,9 @@
 
+import sys
+import importlib
+importlib.reload(sys)
+
+
 #   引入 tushare
 import tushare as ts
 
@@ -14,7 +19,7 @@ db = pymysql.connect("127.0.0.1", "root",
 ts.set_token('41f23d83224913cd79af2c386919c0b84c23d46d6a798890eecc53ee')
 
 # 初始化api
-pro = ts.pro_api()
+# pro = ts.pro_api()
 
 
 # 获取股票列表数据
