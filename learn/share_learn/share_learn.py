@@ -1,3 +1,7 @@
+import pandas as pd
+from sqlalchemy import create_engine
+
+
 import io
 import sys
 
@@ -33,10 +37,10 @@ ts.set_token('41f23d83224913cd79af2c386919c0b84c23d46d6a798890eecc53ee')
 # 获取股票列表数据
 stock = ts.get_stock_basics()
 
-print (stock)
+# print (stock)
 
 
-stock.to_sql('stock_basic',cn,index=False)
+stock.to_sql(name='stock_basic',if_exists='append', index=False)
 
 
 
