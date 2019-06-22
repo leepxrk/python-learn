@@ -6,17 +6,18 @@ import tushare as ts
 
 # data = pro.stock_basic(exchange='', list_status='L', fields='ts_code,symbol,name,area,industry,list_date')
 
-ts.get_hist_data('600848',start='2015-01-05',end='2015-01-09')
+a = ts.get_hist_data('600848',start='2015-01-05',end='2015-01-09')
 
-# ts.get_hist_data('600848') #一次性获取全部日k线数�
-
-
+print (a)
 
 
+b = ts.get_hist_data('600848') #一次性获取全部日k线数�
 
-ts.new_stocks()
+print (b)
 
+data = pro.query('stock_basic', exchange='', list_status='L', fields='ts_code,symbol,name,area,industry,list_date')
 
+print (data)
 
 
 
