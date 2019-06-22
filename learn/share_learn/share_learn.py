@@ -20,7 +20,7 @@ import pymysql
 
 # 使用 connect 方法，传入数据库地址，账号密码，数据库名就可以得到你的数据库对象
 db = pymysql.connect("127.0.0.1", "root", 
-"19900807", "avIdol")
+"19900807", "statisticalLearning")
 
 
 # 设置token
@@ -31,12 +31,12 @@ ts.set_token('41f23d83224913cd79af2c386919c0b84c23d46d6a798890eecc53ee')
 
 
 # 获取股票列表数据
-a = ts.get_stock_basics()
+stock = ts.get_stock_basics()
 
-print (a)
+print (stock)
 
 
-
+stock.to_sql(‘stock_basic’,cn,index=False)
 
 
 
