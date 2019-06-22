@@ -1,9 +1,13 @@
+import io
+import sys
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
+
 
 import sys
 import importlib
-reload(sys)
 importlib.reload(sys)
-sys.setdefaultencoding('utf8') 
+ 
 
 
 
