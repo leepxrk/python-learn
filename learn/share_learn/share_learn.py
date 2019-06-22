@@ -18,9 +18,9 @@ pro = ts.pro_api()
 
 
 # 获取股票列表数据
-ts.get_stock_basics()
+a = ts.get_stock_basics()
 
-
+print (a)
 
 
 
