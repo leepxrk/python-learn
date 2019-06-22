@@ -19,7 +19,7 @@ limitCode = input("111:")
 # sql = "insert into beautyGirls(name, age) values ('Mrs.cang', 18)"
 # sql = "select low,high from stockData where stockCode = '600000'"
 
-cursor.execute('select high from stockData where stockCode = %s limit %s',(queryStockCode,limitCode))
+cursor.execute("select high from stockData where stockCode = %s limit %s",(queryStockCode,limitCode))
 alldata = cursor.fetchall()
 
 
