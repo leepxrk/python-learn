@@ -1,7 +1,11 @@
 
 import sys
 import importlib
+reload(sys)
 importlib.reload(sys)
+sys.setdefaultencoding('utf8') 
+
+
 
 
 #   引入 tushare
