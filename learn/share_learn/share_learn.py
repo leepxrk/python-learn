@@ -34,7 +34,7 @@ ts.set_token('41f23d83224913cd79af2c386919c0b84c23d46d6a798890eecc53ee')
 
 
 # 获取股票列表数据
-stock = ts.get_stock_basics(list_status='L',fields='ts_code,symbol,name,list_date,is_hs)
+stock = ts.get_stock_basics()
 # print (stock)
 
 # 将获取到的数据写入数据库
