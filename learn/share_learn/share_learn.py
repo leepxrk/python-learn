@@ -50,6 +50,8 @@ with open("shareData.csv","w",newline="") as datacsv:  # 通过允许写入的�
 
 csvwriter.writerow(stock)
 
+datacsv.close()
+
 
 
 
