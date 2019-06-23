@@ -11,6 +11,9 @@ import pandas as pd
 from sqlalchemy import create_engine
 import pymysql
 
+# 引入CSV模块
+import csv
+
 
 # 使用 connect 方法，传入数据库地址，账号密码，数据库名就可以得到你的数据库对象
 con = pymysql.connect("127.0.0.1", "root", 
@@ -35,9 +38,19 @@ stock = ts.get_stock_basics(list_status='L',fields='ts_code,symbol,name,list_dat
 # print (stock)
 
 # 将获取到的数据写入数据库
-stock.to_sql(name='stock_basic',con = con,if_exists='append',index=False)
-
+# stock.to_sql(name='stock_basic',con = con,if_exists='append',index=False)
 
 # 关闭数据库连接
-con.close()
+# con.close()
+
+
+# 将获取的数据写入CSV文件
+with open("XXX.csv","w",newline="") as datacsv:  # 通过允许写入的方式打开csv文件
+csvwriter = csv.writer(datacsv,dialect = ("excel"))
+
+csvwriter.writerow(stock)
+
+
+
+
 
