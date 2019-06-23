@@ -51,7 +51,7 @@ stock = ts.get_stock_basics()
 # datacsv.close()
 
 
-df.to_csv('shareData.csv') 
+stock.to_csv('shareData.csv') 
 
 
 
