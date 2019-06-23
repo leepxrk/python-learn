@@ -45,8 +45,8 @@ stock = ts.get_stock_basics()
 
 
 # 将获取的数据写入CSV文件
-with open("XXX.csv","w",newline="") as datacsv:  # 通过允许写入的方式打开csv文件
-csvwriter = csv.writer(datacsv,dialect = ("excel"))
+with open("shareData.csv","w",newline="") as datacsv:  # 通过允许写入的方式打开csv文件
+    csvwriter = csv.writer(datacsv,dialect = ("excel"))
 
 csvwriter.writerow(stock)
 
