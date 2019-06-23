@@ -16,10 +16,12 @@ import pymysql
 con = pymysql.connect("127.0.0.1", "root", 
 "19900807", "statisticalLearning")
 
+# 接着获取 cursor 操作statisticalLearning数据库
+cursor = con.cursor()
+
 
 # 引入 tushare 用于获取股市交易资料
 import tushare as ts
-
 
 # 设置token 用于通过tushare提供的API获取股市交易资料
 ts.set_token('41f23d83224913cd79af2c386919c0b84c23d46d6a798890eecc53ee')
@@ -29,12 +31,13 @@ ts.set_token('41f23d83224913cd79af2c386919c0b84c23d46d6a798890eecc53ee')
 
 
 # 获取股票列表数据
-stock = ts.get_stock_basics()
+stock = ts.get_stock_basics(list_status='L',fields='ts_code,symbol,name,list_date,is_hs)
 # print (stock)
 
 # 将获取到的数据写入数据库
-stock.to_sql(name='stock_basic',con = connect,if_exists='append',index=False)
+stock.to_sql(name='stock_basic',con = con,if_exists='append',index=False)
 
 
-
+# 关闭数据库连接
+con.close()
 
