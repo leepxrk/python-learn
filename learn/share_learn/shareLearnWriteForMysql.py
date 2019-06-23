@@ -38,10 +38,10 @@ stock = ts.get_stock_basics()
 # print (stock)
 
 # 将获取到的数据写入数据库
- stock.to_sql(name='stockBasicsList',con = con,if_exists='append',index=False)
+stock.to_sql(name='stockBasicsList',con = con,if_exists='append',index=False)
 
 # 关闭数据库连接
- con.close()
+con.close()
 
 
 # 将获取的数据写入CSV文件
